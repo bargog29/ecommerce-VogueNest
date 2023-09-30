@@ -1,0 +1,17 @@
+{
+  "name": "ecommercefashiontemplate",
+  "version": "1.0.0",
+  "description": "Ecommerce Fashion Template",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "George - Marius Baranga",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
