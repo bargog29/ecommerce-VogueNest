@@ -4,7 +4,9 @@
   "description": "Ecommerce Fashion Template",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html && parcel build shop.html && parcel build singleProduct.html",
+    "build1": "",
+    "build2": ""
   },
   "author": "George - Marius Baranga",
   "license": "ISC",
