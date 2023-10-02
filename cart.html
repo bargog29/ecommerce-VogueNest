@@ -18,8 +18,8 @@
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a class="active" href="contact.html">Contact</a></li>
-                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
                 <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
             </ul>
         </div>
@@ -36,81 +36,72 @@
         </p>
     </section>
 
-    <section id="contact-details" class="section-p1">
-        <div class="details">
-            <span>GET IN TOUCH</span>
-            <h2>Minim irure sunt proident laboris ullamco id consectetur sit ipsum fugiat.</h2>
-            <h3>Main Shop</h3>
-            <div>
-                <li>
-                    <i class="fa-solid fa-location-crosshairs"></i>
-                    <p>251 Bulevardul George Cosbuc, Galati, Romania, 800506</p>               
-                </li>
-                <li>
-                    <i class="fa-regular fa-envelope"></i>
-                    <p>contact@example.com</p>               
-                </li>
-                <li>
-                    <i class="fa-solid fa-phone"></i>
-                    <p>+40755684762</p>               
-                </li>
-                <li>
-                    <i class="fa-regular fa-clock"></i>
-                    <p>Monday - Sunday: 10:00AM - 22:00PM</p>               
-                </li>
-            </div>         
-        </div>
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.931622218562!2d28.032047000000016!3d45.451034000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b6de6ee3b085cb%3A0x7011eb1a1e6cc5e8!2sShopping%20City!5e0!3m2!1sro!2sro!4v1696261427234!5m2!1sro!2sro" 
-            width="600" 
-            height="450" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>                  
+                    <td>Nike T-Shirt</td>
+                    <td>$69.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$69.00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>                  
+                    <td>Nike T-Shirt</td>
+                    <td>$69.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$69.00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>                  
+                    <td>Nike T-Shirt</td>
+                    <td>$69.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$69.00</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 
-    <section id="form-details">
-        <form action="">
-            <span>Contact Us</span>
-            <h2>We would like to hear your feedback</h2>
-            <input type="text" placeholder="Your Name"> 
-            <input type="text" placeholder="E-mail"> 
-            <input type="text" placeholder="Subject">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea> 
-            <button class="normal">Submit</button>
-        </form>
-        <div class="feedback">
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
             <div>
-                <img src="img/people/1.png" alt="">
-                <p><span>Pers1</span> Senior Web Designer
-                <br> Phone: +40755684762 <br> E-mail: contact@example.com
-                </p>
-            </div>
-            <div>
-                <img src="img/people/2.png" alt="">
-                <p><span>Pers2</span> Senior Web Designer
-                <br> Phone: +40755684762 <br> E-mail: contact@example.com
-                </p>
-            </div>
-            <div>
-                <img src="img/people/3.png" alt="">
-                <p><span>Pers3</span> Senior Web Designer
-                <br> Phone: +40755684762 <br> E-mail: contact@example.com
-                </p>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
             </div>
         </div>
-    </section>
-
-    <section id="newsletter" class="section-p1">
-        <div class="news-text">
-            <h4>Sign Up For Latest Products</h4>
-            <p>Get mails about latest products and <span>special offers</span></p>
-        </div>
-        <div class="form">
-            <input type="text" placeholder="Your Email Address">
-            <button class="normal">Sign Up</button>
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$207.00</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$207.00</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Checkout</button>
         </div>
     </section>
 
