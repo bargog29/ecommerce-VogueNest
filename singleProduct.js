@@ -1,4 +1,4 @@
-'strict mode'
+'use strict'
 let mainImage = document.getElementById('main--img');
 let smallImage = document.getElementsByClassName('small-img');
 
